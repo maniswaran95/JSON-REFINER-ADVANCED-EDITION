@@ -2,15 +2,20 @@
 
 CMD
 
-mkdir nmproject-JSON Refiner
 
-cd nmproject-JSON Refiner
+Step 1:
 
-py -3 -m venv .venv
+>>mkdir NMPROJECTS\JSON_REFINER
+>>cd C:\Users\my lap\NMPROJECTS\JSON_REFINER
+>>.venv\scripts\activate
+>>pip install pyinstaller
+>>pyinstaller --noconsole --onefile --name "JSON_Refiner_Advanced" json_refiner.py
 
-.venv\scripts\activate
+Step 2:
 
-pip install -r requirements.txt
+JSON_REFINER  Dist  JSON_Refiner_Advanced.exe
 
+Step 3:
 
-python json_refiner.py
+Click on JSON_Refiner_Advanced.exe File 
+
