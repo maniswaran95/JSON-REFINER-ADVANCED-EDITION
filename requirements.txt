@@ -4,3 +4,5 @@ pyyaml
 xmltodict
 jmespath
 flatten-json
+pyperclip
+pyinstaller
